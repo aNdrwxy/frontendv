@@ -1,6 +1,6 @@
-# ⚡ GameStore Frontend
+#  Frontend
 
-React + Vite frontend for the GameStore microservices backend.
+React + Vite frontend for microservices backend.
 
 ## Quick Start
 
@@ -30,15 +30,9 @@ App runs at → http://localhost:5173
 ## Auth
 
 - JWT stored in `localStorage` as `token`
-- Login endpoint: `POST http://localhost:8000/api/auth/login/`  
+- Login endpoint: `POST http://localhost:8000/api/login/`  
   → must return `{ access: "<jwt>" }`
-- Register endpoint: `POST http://localhost:8000/api/auth/register/`
-
----
-
-## Role-based access
-
-Set `role: "admin"` on the user profile object returned by `/api/profile/me/` to unlock the Admin Dashboard.
+- Register endpoint: `POST http://localhost:8000/api/register/`
 
 ---
 
